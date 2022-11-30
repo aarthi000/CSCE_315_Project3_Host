@@ -14,12 +14,12 @@ function Customer(props) {
 
   const getMenuitems = async () => {
     try{
-      const response = await fetch ("http://localhost:4999/menuitems_list");
+      const response = await fetch ("/menuitems_list");
       const jsonData = await response.json();
       setMenuitems(jsonData);
 
     }catch (err){
-      console.error("i will kms fr:  see error message below");
+      console.error("i will cry fr:  see error message below");
       console.error(err.message);
     }
   }
