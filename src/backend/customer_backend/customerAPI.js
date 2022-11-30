@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 
 app.listen(PORT, () => {
-    console.log("customerAPI.js is now listening at port ${PORT}");
+    console.log(`customerAPI.js is now listening at port ${PORT}`);
 });
 
 
